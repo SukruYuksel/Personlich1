@@ -6,7 +6,7 @@ public class SumArrayElement {
     public static void main(String[] args) {
         System.out.println("Array Toplamini ve Reversesini bulan  Programa hosgeldiniz");
         System.out.println("Simdi basliyoruz");
-        System.out.println("Simdi basliyoruz");
+
 
         int[] sayilar = {2, 4, 6, 8, 10};
         sumAndReverseArray(sayilar);
