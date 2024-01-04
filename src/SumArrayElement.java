@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class SumArrayElement {
     public static void main(String[] args) {
         System.out.println("Array Toplamini ve Reversesini bulan  Programa hosgeldiniz");
@@ -16,7 +20,12 @@ public class SumArrayElement {
         }
         System.out.println("sum = " + sum);
 
-
+        List<Integer>list1=new ArrayList<>();
+        for (int i = array.length-1; i >= 0; i--) {
+list1.add(array[i]);
+        }
+        System.out.println("Normal Array = "+ Arrays.toString(array));
+        System.out.println("Reverse = " + list1);
     }
 
 }
